@@ -1203,14 +1203,14 @@ var app = (function () {
     			attr_dev(input, "class", "form-control svelte-agu41x");
     			attr_dev(input, "type", "file");
     			attr_dev(input, "id", "formFile");
-    			add_location(input, file$2, 29, 8, 689);
+    			add_location(input, file$2, 30, 8, 694);
     			attr_dev(div0, "class", "text-left");
-    			add_location(div0, file$2, 28, 8, 657);
+    			add_location(div0, file$2, 29, 8, 662);
     			attr_dev(div1, "class", "text-right");
-    			add_location(div1, file$2, 32, 8, 799);
+    			add_location(div1, file$2, 33, 8, 804);
     			attr_dev(div2, "class", "mb-3 import svelte-agu41x");
-    			add_location(div2, file$2, 27, 4, 623);
-    			add_location(hr, file$2, 37, 4, 964);
+    			add_location(div2, file$2, 28, 4, 628);
+    			add_location(hr, file$2, 38, 4, 969);
     			add_location(div3, file$2, 26, 0, 613);
     		},
     		l: function claim(nodes) {
@@ -1346,7 +1346,7 @@ var app = (function () {
     			t = text(t_value);
     			option.__value = /*examName*/ ctx[49];
     			option.value = option.__value;
-    			add_location(option, file$1, 131, 12, 4441);
+    			add_location(option, file$1, 131, 12, 4432);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, option, anchor);
@@ -1381,7 +1381,7 @@ var app = (function () {
     			t = text(t_value);
     			option.__value = /*examYear*/ ctx[46];
     			option.value = option.__value;
-    			add_location(option, file$1, 138, 12, 4854);
+    			add_location(option, file$1, 138, 12, 4845);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, option, anchor);
@@ -1416,7 +1416,7 @@ var app = (function () {
     			t = text(t_value);
     			option.__value = /*examSubject*/ ctx[43];
     			option.value = option.__value;
-    			add_location(option, file$1, 146, 12, 5269);
+    			add_location(option, file$1, 146, 12, 5260);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, option, anchor);
@@ -1452,7 +1452,7 @@ var app = (function () {
     			t = text(t_value);
     			option.__value = option_value_value = /*subjectSection*/ ctx[40];
     			option.value = option.__value;
-    			add_location(option, file$1, 153, 12, 5729);
+    			add_location(option, file$1, 153, 12, 5720);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, option, anchor);
@@ -1506,20 +1506,20 @@ var app = (function () {
     			t3 = text("Generate & copy Image name");
     			attr_dev(span0, "class", "input-group-text");
     			attr_dev(span0, "id", "inputGroup-sizing-sm");
-    			add_location(span0, file$1, 192, 16, 8269);
+    			add_location(span0, file$1, 192, 16, 8260);
     			attr_dev(input, "type", "text");
     			attr_dev(input, "class", "form-control svelte-ahwf0c");
     			attr_dev(input, "aria-label", "Sizing example input");
     			attr_dev(input, "id", "copy-button");
     			attr_dev(input, "aria-describedby", "inputGroup-sizing-sm");
     			input.disabled = true;
-    			add_location(input, file$1, 193, 16, 8360);
+    			add_location(input, file$1, 193, 16, 8351);
     			attr_dev(span1, "class", "input-group-text pointer cpy svelte-ahwf0c");
     			attr_dev(span1, "id", "inputGroup-sizing-sm ");
     			attr_dev(span1, "disabled", /*name_generated*/ ctx[2]);
-    			add_location(span1, file$1, 194, 16, 8538);
+    			add_location(span1, file$1, 194, 16, 8529);
     			attr_dev(div, "class", "input-group input-group-sm mb-3  svelte-ahwf0c");
-    			add_location(div, file$1, 191, 12, 8206);
+    			add_location(div, file$1, 191, 12, 8197);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -1753,113 +1753,113 @@ var app = (function () {
     			attr_dev(select0, "class", "form-select svelte-ahwf0c");
     			attr_dev(select0, "aria-label", "Default select example");
     			if (/*exam*/ ctx[3] === void 0) add_render_callback(() => /*select0_change_handler*/ ctx[21].call(select0));
-    			add_location(select0, file$1, 129, 8, 4305);
+    			add_location(select0, file$1, 129, 8, 4296);
     			attr_dev(span0, "class", "input-group-text");
-    			add_location(span0, file$1, 135, 8, 4658);
+    			add_location(span0, file$1, 135, 8, 4649);
     			attr_dev(select1, "class", "form-select svelte-ahwf0c");
     			attr_dev(select1, "aria-label", "Default select example");
     			if (/*year*/ ctx[4] === void 0) add_render_callback(() => /*select1_change_handler*/ ctx[22].call(select1));
-    			add_location(select1, file$1, 136, 8, 4718);
+    			add_location(select1, file$1, 136, 8, 4709);
     			attr_dev(div0, "class", "input-group input-group-sm mb-3");
-    			add_location(div0, file$1, 128, 4, 4251);
+    			add_location(div0, file$1, 128, 4, 4242);
     			attr_dev(select2, "class", "form-select svelte-ahwf0c");
     			attr_dev(select2, "aria-label", "Default select example");
     			if (/*subject*/ ctx[5] === void 0) add_render_callback(() => /*select2_change_handler*/ ctx[23].call(select2));
-    			add_location(select2, file$1, 144, 8, 5124);
+    			add_location(select2, file$1, 144, 8, 5115);
     			attr_dev(span1, "class", "input-group-text");
-    			add_location(span1, file$1, 150, 8, 5491);
+    			add_location(span1, file$1, 150, 8, 5482);
     			attr_dev(select3, "class", "form-select svelte-ahwf0c");
     			attr_dev(select3, "aria-label", "Default select example");
     			if (/*section*/ ctx[6] === void 0) add_render_callback(() => /*select3_change_handler*/ ctx[24].call(select3));
-    			add_location(select3, file$1, 151, 8, 5557);
+    			add_location(select3, file$1, 151, 8, 5548);
     			attr_dev(div1, "class", "input-group input-group-sm mb-3 ");
-    			add_location(div1, file$1, 143, 4, 5069);
+    			add_location(div1, file$1, 143, 4, 5060);
     			attr_dev(span2, "class", "input-group-text");
-    			add_location(span2, file$1, 159, 8, 5996);
+    			add_location(span2, file$1, 159, 8, 5987);
     			attr_dev(textarea, "wrap", "soft");
     			attr_dev(textarea, "class", "form-control svelte-ahwf0c");
     			attr_dev(textarea, "aria-label", "With textarea");
-    			add_location(textarea, file$1, 160, 8, 6051);
+    			add_location(textarea, file$1, 160, 8, 6042);
     			attr_dev(div2, "class", "input-group svelte-ahwf0c");
-    			add_location(div2, file$1, 158, 4, 5962);
+    			add_location(div2, file$1, 158, 4, 5953);
     			attr_dev(span3, "class", "input-group-text");
     			attr_dev(span3, "id", "inputGroup-sizing-sm");
-    			add_location(span3, file$1, 164, 12, 6260);
+    			add_location(span3, file$1, 164, 12, 6251);
     			attr_dev(input0, "type", "text");
     			attr_dev(input0, "placeholder", "Answer");
     			attr_dev(input0, "class", "form-control svelte-ahwf0c");
     			attr_dev(input0, "aria-label", "Sizing example input");
     			attr_dev(input0, "aria-describedby", "inputGroup-sizing-sm");
-    			add_location(input0, file$1, 165, 12, 6343);
+    			add_location(input0, file$1, 165, 12, 6334);
     			attr_dev(div3, "class", "input-group input-group-sm mb-3 svelte-ahwf0c");
-    			add_location(div3, file$1, 163, 8, 6202);
+    			add_location(div3, file$1, 163, 8, 6193);
     			attr_dev(span4, "class", "input-group-text");
     			attr_dev(span4, "id", "inputGroup-sizing-sm");
-    			add_location(span4, file$1, 168, 12, 6582);
+    			add_location(span4, file$1, 168, 12, 6573);
     			attr_dev(input1, "type", "text");
     			attr_dev(input1, "placeholder", "Option 1");
     			attr_dev(input1, "class", "form-control svelte-ahwf0c");
     			attr_dev(input1, "aria-label", "Sizing example input");
     			attr_dev(input1, "aria-describedby", "inputGroup-sizing-sm");
-    			add_location(input1, file$1, 169, 12, 6667);
+    			add_location(input1, file$1, 169, 12, 6658);
     			attr_dev(div4, "class", "input-group input-group-sm mb-3 svelte-ahwf0c");
-    			add_location(div4, file$1, 167, 8, 6524);
+    			add_location(div4, file$1, 167, 8, 6515);
     			attr_dev(span5, "class", "input-group-text");
     			attr_dev(span5, "id", "inputGroup-sizing-sm");
-    			add_location(span5, file$1, 172, 12, 6909);
+    			add_location(span5, file$1, 172, 12, 6900);
     			attr_dev(input2, "type", "text");
     			attr_dev(input2, "placeholder", "Option 2");
     			attr_dev(input2, "class", "form-control svelte-ahwf0c");
     			attr_dev(input2, "aria-label", "Sizing example input");
     			attr_dev(input2, "aria-describedby", "inputGroup-sizing-sm");
-    			add_location(input2, file$1, 173, 12, 6994);
+    			add_location(input2, file$1, 173, 12, 6985);
     			attr_dev(div5, "class", "input-group input-group-sm mb-3 svelte-ahwf0c");
-    			add_location(div5, file$1, 171, 8, 6851);
+    			add_location(div5, file$1, 171, 8, 6842);
     			attr_dev(span6, "class", "input-group-text");
     			attr_dev(span6, "id", "inputGroup-sizing-sm");
-    			add_location(span6, file$1, 176, 12, 7237);
+    			add_location(span6, file$1, 176, 12, 7228);
     			attr_dev(input3, "type", "text");
     			attr_dev(input3, "placeholder", "Option 3");
     			attr_dev(input3, "class", "form-control svelte-ahwf0c");
     			attr_dev(input3, "aria-label", "Sizing example input");
     			attr_dev(input3, "aria-describedby", "inputGroup-sizing-sm");
-    			add_location(input3, file$1, 177, 12, 7322);
+    			add_location(input3, file$1, 177, 12, 7313);
     			attr_dev(div6, "class", "input-group input-group-sm mb-3  svelte-ahwf0c");
-    			add_location(div6, file$1, 175, 8, 7178);
+    			add_location(div6, file$1, 175, 8, 7169);
     			attr_dev(span7, "class", "input-group-text");
     			attr_dev(span7, "id", "inputGroup-sizing-sm");
-    			add_location(span7, file$1, 180, 12, 7565);
+    			add_location(span7, file$1, 180, 12, 7556);
     			attr_dev(input4, "type", "text");
     			attr_dev(input4, "placeholder", "Solution");
     			attr_dev(input4, "class", "form-control svelte-ahwf0c");
     			attr_dev(input4, "aria-label", "Sizing example input");
     			attr_dev(input4, "aria-describedby", "inputGroup-sizing-sm");
-    			add_location(input4, file$1, 181, 12, 7650);
+    			add_location(input4, file$1, 181, 12, 7641);
     			attr_dev(div7, "class", "input-group input-group-sm mb-3  svelte-ahwf0c");
-    			add_location(div7, file$1, 179, 8, 7506);
+    			add_location(div7, file$1, 179, 8, 7497);
     			attr_dev(input5, "class", "form-check-input");
     			attr_dev(input5, "type", "checkbox");
     			input5.__value = "";
     			input5.value = input5.__value;
     			attr_dev(input5, "id", "flexCheckDefault");
-    			add_location(input5, file$1, 185, 12, 7873);
+    			add_location(input5, file$1, 185, 12, 7864);
     			attr_dev(label, "class", "form-check-label");
     			attr_dev(label, "for", "flexCheckDefault");
-    			add_location(label, file$1, 186, 12, 7996);
+    			add_location(label, file$1, 186, 12, 7987);
     			attr_dev(div8, "class", "form-check");
-    			add_location(div8, file$1, 184, 8, 7836);
+    			add_location(div8, file$1, 184, 8, 7827);
     			attr_dev(button0, "type", "button");
     			attr_dev(button0, "class", "button btn btn-success btn-sm  svelte-ahwf0c");
-    			add_location(button0, file$1, 199, 12, 8776);
+    			add_location(button0, file$1, 199, 12, 8767);
     			attr_dev(button1, "type", "button");
     			attr_dev(button1, "class", "button btn btn-primary btn-sm  svelte-ahwf0c");
     			attr_dev(button1, "id", "dwn-btn");
-    			add_location(button1, file$1, 210, 12, 9105);
+    			add_location(button1, file$1, 210, 12, 9096);
     			attr_dev(div9, "class", "right svelte-ahwf0c");
-    			add_location(div9, file$1, 198, 8, 8744);
+    			add_location(div9, file$1, 198, 8, 8735);
     			attr_dev(div10, "class", "options svelte-ahwf0c");
-    			add_location(div10, file$1, 162, 4, 6172);
-    			add_location(div11, file$1, 127, 0, 4241);
+    			add_location(div10, file$1, 162, 4, 6163);
+    			add_location(div11, file$1, 127, 0, 4232);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -2338,7 +2338,7 @@ var app = (function () {
     	}
 
     	function download() {
-    		let filename = "questions_" + exam + '_' + year + '_' + subject + '_' + section + '.csv';
+    		let filename = "questions_" + exam + '_' + year + '_' + subject + '_' + '.csv';
     		let textInput = convertToCsv();
     		let element = document.createElement('a');
     		element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(textInput));

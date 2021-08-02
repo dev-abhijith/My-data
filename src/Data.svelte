@@ -97,7 +97,7 @@
     }
 
     function download() {
-        let filename = "questions_"+ exam +'_' + year + '_' + subject + '_' + section+'.csv'
+        let filename = "questions_"+ exam +'_' + year + '_' + subject + '_' +'.csv'
         let textInput = convertToCsv()
         let element = document.createElement('a');
         element.setAttribute('href','data:text/plain;charset=utf-8,' + encodeURIComponent(textInput));
