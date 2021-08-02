@@ -18,7 +18,7 @@
         'Mixture&Allegation','Ratio&Proportion','Partnership','Average','CompoundInterest','SimpleInterest',
         'NumberSystem&Algebra','HCF&LCM','Geometry','CooradinateGeometry','Mensuration','Trigonometry','Height&Distance','DataInterpretation'
     ]
-    let raSections = ['',]
+    let raSections = ['','AlphabetTest','Analogy','ArithemeticReasoning','BloodRelation','Classification','CodingDecoding','DistanceAndDirection','Syllogism','VennDiagram','MissingNumber','PaperCutting&Folding','EmbeddedFigures','FigureSeries','Cubes&Dices','MirrorImages','PatternCompletion','CountingFigures']
     let gaSections = ['','History','Geography','Biology','Economics','Polity','Physics','Computer','Chemistry']
     let engSections = ['','Errors','SentenceImprovement','Active&Passive','Direct&Indirect','FillInTheBlanks','Synonyms&Antonyms','OneWord','Idioms&Phrases','WordCorrection','Jumbled','Comprehension']
 
