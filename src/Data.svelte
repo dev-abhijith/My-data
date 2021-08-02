@@ -33,7 +33,7 @@
     let option1 =''
     let option2 =''
     let option3 =''
-    let solution =''
+    let solution ='none'
     let image = 'none'
 
     const random = (length = 8) => {
@@ -57,7 +57,7 @@
         option1 = ''
         option2 = ''
         option3 = ''
-        solution = ''
+        solution = 'none'
         image = 'none'
         image_present = false
         dispatch('notify', 'updated')
