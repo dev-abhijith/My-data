@@ -158,7 +158,7 @@
     </div>
     <div class="input-group">
         <span class="input-group-text">Question</span>
-        <textarea class="form-control" aria-label="With textarea" bind:value="{question}"></textarea>
+        <textarea wrap="soft" class="form-control" aria-label="With textarea" bind:value="{question}"></textarea>
     </div>
     <div class="options">
         <div class="input-group input-group-sm mb-3">
